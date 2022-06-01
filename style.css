@@ -44,3 +44,10 @@
 .btn-info{
     background-color: #2596be!important;
 }
+#send-to-top{
+    background:none!important;
+    font-size: 2rem!important;
+}
+#send-to-top>a:hover{
+    color: #6bb8d6!important;
+}

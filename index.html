@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- "navbar" start here -->
-    <div class="d-flex bg-info justify-content-between px-5 py-1">
+    <div id="top-place" class="d-flex bg-info justify-content-between px-5 py-1">
         <nav class="navbar navbar-expand-lg ps-2 navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -243,10 +243,12 @@
             </div>
         </div>
         <hr>
-        <div class="py-2">
+        <div class="py-2 position-relative">
             <div class="text-center text-white-50">
                 <p>Copyright © 2022. All rights reserved. Design by <a href="#" class="text-decoration-none text-white-50">Someone</a></p>
             </div>
+            <button id="send-to-top" class="position-absolute end-0 top-0 border-0 px-2 me-3 mb-3"><a
+                class="text-decoration-none text-info" href="#top-place"><i class="bi bi-arrow-up-circle-fill"></i></a></button>
         </div>
     </footer>
     <!-- "footer" end here -->
